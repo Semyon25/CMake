@@ -4,10 +4,6 @@ cmake_minimum_required(VERSION 3.11)
 # Название проекта
 project(MyProject)
 
-SET(CMAKE_MAKE_PROGRAM C:/MinGW/bin/mingw32-make.exe)
-SET(CMAKE_C_COMPILER C:/MinGW/bin/gcc)
-SET(CMAKE_CXX_COMPILER C:/MinGW/bin/g++)
-
 # Устанавливаем команду компилятору в debug режиме: "-Wall" говорит выводить все предупреждения
 set(CMAKE_CXX_FLAGS_DUBUG_INIT "-Wall")
 
